@@ -2,6 +2,10 @@
 
 Dockerized Openfire XMPP server
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/unixs/openfire?style=flat-square) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/unixs/openfire/latest?style=flat-square) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/unixs/openfire?label=latest%20version%20&style=flat-square)
+
+Based on Ubuntu GNU/Linux official image.
+
 ## Prepare
 
 ### Pull image
