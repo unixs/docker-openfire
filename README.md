@@ -24,7 +24,7 @@ mkdir ~/openfire
 
 **Run it only once.**
 
-NB: `~/openfire` - path to your ocal data persistence directory.
+NB: `~/openfire` - path to your local data persistence directory.
 
 ```bash
 docker run -it --rm -v ~/openfire:/var/lib/openfire/persist unixs/openfire bash openfire_init.sh
