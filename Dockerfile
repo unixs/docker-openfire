@@ -1,7 +1,7 @@
 # Build intermediate base OS image
 FROM ubuntu:18.04 as distr
 
-ENV OPENFIRE_VERSION=4.5.2 \
+ENV OPENFIRE_VERSION=4.6.0 \
   OPENFIRE_USER=openfire \
   OPENFIRE_PERSIST_DIR=/var/lib/openfire/persist
 
