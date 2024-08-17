@@ -1,7 +1,7 @@
 # Build intermediate base OS image
 FROM ubuntu:22.04 as distr
 
-ENV OPENFIRE_VERSION=4.8.1 \
+ENV OPENFIRE_VERSION=4.8.3 \
   OPENFIRE_USER=openfire \
   OPENFIRE_PERSIST_DIR=/var/lib/openfire/persist
 
