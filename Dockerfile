@@ -1,5 +1,5 @@
 # Build intermediate base OS image
-FROM ubuntu:22.04 as distr
+FROM ubuntu:24.04 as distr
 
 ENV OPENFIRE_VERSION=4.8.3 \
   OPENFIRE_USER=openfire \
