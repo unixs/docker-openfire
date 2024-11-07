@@ -1,5 +1,5 @@
 # Build intermediate base OS image
-FROM ubuntu:24.04 as distr
+FROM ubuntu:24.04 AS distr
 
 ENV OPENFIRE_VERSION=4.9.1 \
   OPENFIRE_USER=openfire \
@@ -14,7 +14,7 @@ RUN apt-get -y update && apt-get -y upgrade \
 
 
 # Build final image
-FROM distr as final
+FROM distr AS final
 
 WORKDIR /var/lib/openfire
 
